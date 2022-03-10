@@ -10,13 +10,13 @@ namespace Taller.Vista
 {
     internal class VistaProducto
     {
-        public void MenuProducto()
+        public void MenuProducto(List<Producto> productos,Producto producto)
         {
 
             ProductoService productoServicio = new ProductoService();
-            Producto producto = new();
+            
 
-            List<Producto> productos = new();
+          
 
             while (true)
             {

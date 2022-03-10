@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Taller.Model;
 using Taller.Service;
 using Taller.Vista;
 
@@ -10,6 +11,8 @@ namespace Taller
     {
         static void Main(string[] args)
         {
+            Producto producto = new();
+            List<Producto> productos = new();
 
             while (true)
             {
@@ -26,9 +29,15 @@ namespace Taller
                         break;
                     case "2":
                         VistaProducto menuP = new();
-                        menuP.MenuProducto();
+                        menuP.MenuProducto(productos,producto);
                         break;
+
                     case "3":
+                        VistaVenta menuV = new();
+                        menuV.MenuVenta(productos, producto);
+                        break;
+
+                    case "4":
                         Console.WriteLine("Gracias por ingresar sapa hijueputa negra asquerosa");
                         Environment.Exit(0);
                         break;

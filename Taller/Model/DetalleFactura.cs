@@ -8,7 +8,7 @@ namespace Taller.Model
 {
     internal class DetalleFactura
     {
-        public string nit= Guid.NewGuid().ToString();
+        public string nit="702007038439";
         public string Precio;
         public string Cantidad;
     }
