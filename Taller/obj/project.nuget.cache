@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "aX1RPwMfREGDsHZYQe3Ehuz98nBDF7bEf75GB5kP1nw7ltv/L3UgW1aTWmAke3NDLaVMnhDRxUjjwwRmbgvrJw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Mauricio Ceballos\\source\\repos\\Taller_objectos_orientados-main\\Taller\\Taller.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mauricio Ceballos\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
